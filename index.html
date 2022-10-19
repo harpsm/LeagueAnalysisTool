@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Creative Project 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Silkscreen&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+    </style>
+</head>
+
+<body>
+
+
+    <h1>League of Legends Player Analysis</h1>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script src="championsList.js"></script>
+
+    <div class="search-block">
+        <form>
+            <label>Summoner ID:</label></br>
+            <input id="summonerIDInput" type="text"></input><br />
+            <input id="summonerIDSubmit" type="submit" value="Analyze"></input>
+            <script text="type/javascript" src="script.js"></script>
+        </form>
+    </div>
+
+    <div id="overviewResults">
+        <h3>Sample Summoner IDs:</h3>
+        <p>Phantom Hydra</p>
+        <p>mid ruin</p>
+        <p>c2 meteos</p>
+        <p>KatEvolved</p>
+        <p>Mormon42</p>
+        <p>Minnegoober</p>
+        <p>C9 Meteos</p>
+    </div>
+
+    <div id="skillsAnalysisResults"></div>
+
+    <div class="footer">
+        <h3>A Webtool by Micah Harps</h3>
+    </div>
+</body>
+
+</html>

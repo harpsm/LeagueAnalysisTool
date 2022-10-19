@@ -1,0 +1,99 @@
+:root {
+    --purple: #8125D1;
+    --dark-purple: #5F03AF;
+    --cyan: #1B9DD5;
+    --dark-cyan: #007BB3;
+    --muted-red: #AA1313;
+    --maroon: #880202;
+    --chocolate: #BC986A;
+    --dark-chocolate: #9A7648;
+    --cream: #FBEEC1;
+}
+body {
+    font-family: Cinzel;
+    background-color: black;
+    color: var(--cream);
+    text-align: center;
+}
+
+.search-block {
+    justify-content: center;
+    text-align: center;
+}
+form > input {
+    background-color: var(--cream);
+    color: black;
+    font-family: Cinzel;
+}
+
+.overview {
+    justify-content: center;
+}
+.overview > h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.overview-flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.champion-mastery-tile-1, 
+.champion-mastery-tile-2, 
+.champion-mastery-tile-3, 
+.champion-mastery-tile-4, 
+.champion-mastery-tile-5, 
+.champion-mastery-tile-6, 
+.champion-mastery-tile-7 {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid var(--purple);
+    justify-content: center;
+    text-align: center;
+    font-family: Cinzel;
+}
+.champion-mastery-tile-1 > h3, 
+.champion-mastery-tile-2 > h3, 
+.champion-mastery-tile-3 > h3, 
+.champion-mastery-tile-4 > h3, 
+.champion-mastery-tile-5 > h3, 
+.champion-mastery-tile-6 > h3, 
+.champion-mastery-tile-7 > h3 {
+    width: 120px;
+    font-size: small;
+}
+.champion-mastery-tile-1 > h2, 
+.champion-mastery-tile-2 > h2, 
+.champion-mastery-tile-3 > h2, 
+.champion-mastery-tile-4 > h2, 
+.champion-mastery-tile-5 > h2, 
+.champion-mastery-tile-6 > h2, 
+.champion-mastery-tile-7 > h2 {
+    font-size: larger;
+}
+
+.champion-mastery-tile-1, 
+.champion-mastery-tile-2, 
+.champion-mastery-tile-3, 
+.champion-mastery-tile-4 {
+    background-color: var(--dark-chocolate);
+    border-color: var(--chocolate);
+}
+.champion-mastery-tile-5 {
+    background-color: var(--maroon);
+    border-color: var(--muted-red);
+}
+.champion-mastery-tile-6 {
+    background-color: var(--dark-purple);
+    border-color: var(--purple);
+}
+.champion-mastery-tile-7 {
+    background-color: var(--dark-cyan);
+    border-color: var(--cyan);
+}
